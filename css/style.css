@@ -1,0 +1,480 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+
+
+/* navbar configuracion*/
+  .nav-item{
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .navbar{
+    border-top: 1px solid rgb(201, 201, 54) ;
+    padding: 0%;
+  }
+
+  .navbar-brand{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .navbar-brand p{
+    margin-bottom: 0;
+    padding: 5px;
+
+  }
+
+  .second-nav{
+    font-size: 13px;
+  }
+  
+  .nav-link{
+    border-radius:10px;
+    color:white;
+  }
+
+  .nav-link:hover{
+    background-color: rgb(118, 121, 23);
+    color: rgb(255, 255, 255);
+  }
+
+  .container-fluid{
+    background-color: rgba(255, 204, 0, 0.749);
+    color: white;
+  }
+
+  .container-fluid h4{
+    margin-bottom: 0;
+  }
+
+
+  /*a1 box start*/
+
+  .box-start{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    background-color: rgb(103, 100, 67);
+  }
+
+  .box-start-content {
+    width: 40%;
+    height: 100%;
+    color: rgb(215, 208, 208);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    }
+
+    .box-start-content p , .section-location{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+  .carousel{
+    width: 100%;
+    height: 100%;
+  }
+
+  /*logos de empresas asociadas , como no hay, pongo imagen de "no hay imagen" :P */
+
+  .empre-aso{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .empre-aso-img{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    }
+
+  .empre-aso-img img{
+    width: 50%;
+    height: 50%;
+
+  }
+
+  /*apartado de tendencia*/
+
+  .tendencia{
+    padding: 10px;
+    padding-top: 20px;
+  }
+
+  .card img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .card-tendencia{
+    padding: 15px;
+  }
+  .card{
+    border: 0;
+  }
+
+  /*donde te gustaria viajar?*/
+
+   .preg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(103, 100, 67);
+    color: rgb(215, 208, 208);
+    padding: 20px;
+   }
+  /*galeria de lugares donde viajar*/
+
+  .card-body ,.contacto-layout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-boton-link a{
+    padding: 5px;
+    background-color: #ffd05b;
+  }
+
+  .card-boton-link a:hover{
+    background-color: rgb(118, 121, 23);
+    color: rgb(255, 255, 255);
+  }
+
+  .card-img-bottom :hover{
+    filter: blur(2.5px);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*contactos styles*/
+
+  .contacto-layout{
+    background-color: rgb(103, 100, 67);
+  }
+
+  .layout{
+    background-color: white;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+
+  .redes-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+  }
+
+  .redes-container i{
+    width: 100px;
+    height: 20px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*ayuda style*/
+
+  .ayuda-grid{
+    width: 100%;
+    height: 100%;
+  }
+
+  .card-text-ayuda:hover{
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 5px;
+  }
+  
+  .card-ayuda{
+    padding: 10px;
+    align-items: flex-start;
+  }
+
+  .card-ayuda p {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 3px;
+    border-radius: 10px;
+  }
+
+  .frase-preg-frecuentes{
+    font-size: 25px;
+    padding-left: 10px;
+  }
+
+  .card-ayuda h5{
+    padding-top: 10px;
+  }
+
+  .row{
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .buscador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+/* nosotros style */
+
+.presentcion-nosotros{
+  background-image: url(../assets/images/fondo-nosotros.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  padding: 20px;
+}
+
+.box1-nosotros , .box2-nosotros{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+  /*grids*/
+
+  /*grid index*/
+  .a1{grid-area: a1;}
+  .a2{grid-area: a2;}
+  .a3{grid-area: a3;}
+  .a4{grid-area: a4;}
+  .a5{grid-area: a5;}
+
+  /*grid en index lugar donde te gustaria viajar*/
+  .b1{grid-area: b1;}
+  .b2{grid-area: b2;}
+  .b3{grid-area: b3;}
+  .b4{grid-area: b4;}
+  .b5{grid-area: b5;}
+  .b6{grid-area: b6;}
+
+  /* grid en index lugares en tendencia */
+  .c1{grid-area: c1;} 
+  .c2{grid-area: c2;} 
+  .c3{grid-area: c3;} 
+  .c4{grid-area: c4;} 
+  .c5{grid-area: c5;} 
+  .c6{grid-area: c6;}
+
+  /* grid en ayuda*/
+  .d1{grid-area: d1;}
+  .d2{grid-area: d2;}
+  .d3{grid-area: d3;}
+
+  /*grid en nosotros*/
+  .e1{grid-area: e1;}
+  .e2{grid-area: e2;}
+
+  .grid{
+    padding-top: 20px;
+    display: grid;
+    grid-template-rows: 500px 800px 200px 1fr 150px;
+    grid-template-areas: 
+    "a1"
+    "a2"
+    "a3"
+    "a4"
+    "a5";
+  }
+
+  .vacation-selection-grid{
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "b1 b2 b3"
+    "b4 b5 b6";  
+  }
+
+  .tendencia-grid{
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: repeat(2 , 300px);
+    grid-template-areas: 
+    "c1 c1 c2 c2"
+    "c3 c4 c5 c6";
+  }
+
+  .ayuda-grid{
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;
+    grid-template-rows: repeat(3 , 1fr) ;
+    grid-template-areas: 
+    "d1 d2 d2"
+    "d1 d3 d3"
+    "d1 d3 d3";
+  }
+
+  .nosotros-grid{
+    display: grid;
+    grid-template-columns:repeat(2 , 1fr);
+    grid-template-rows: 500px;
+    grid-template-areas: "e1 e2";
+  }
+
+
+
+  .vacation-selection-grid box{
+    padding: 10px;
+    height: 100%;
+  }
+
+  .card-img-bottom{
+    height: 100%;
+  }
+
+
+/*media*/
+
+
+/*arriba de 768 px*/
+  @media (min-width: 768px){
+    .dropdown  ,.hidden-nav-link{
+      display: none;
+    }
+  }
+
+/*entre 576px y 768px*/
+  @media(min-width: 576px) and (max-width: 768px){
+    
+  }
+/* abajo de 768*/
+  @media (max-width: 768px) {
+    .box-palabras-clave , .second-navbar-index{
+      display: none;
+    }
+    .ayuda-grid {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr ;
+      grid-template-areas:
+      "d2"
+      "d3" ;}
+
+    .nav-link{
+      color: rgb(54, 54, 54);
+    }
+  }
+
+/* abajo de 576 px*/
+  @media (max-width: 576px) {
+    
+      .col-4{
+        width: 50%;
+      }
+
+      .box-start{
+        flex-direction: column;
+      }
+
+      .box-start-content{
+        width: 100%;
+      }
+
+      .tendencia-grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6 , 150px);
+        grid-template-areas: 
+        "c1"
+        "c2"
+        "c3"
+        "c4"
+        "c5"
+        "c6";
+      }
+
+      .grid{
+        grid-template-rows: 430px 1100px 120px 1fr 150px;
+      }
+
+      .vacation-selection-grid{
+        grid-template-columns: 1fr;
+        grid-template-rows:(6, 1fr);
+        grid-template-areas: 
+        "b1"
+        "b2"
+        "b3"
+        "b4"
+        "b5"
+        "b6";  
+      }
+      
+      .empre-aso-img{
+        height: auto;
+      }
+  }
